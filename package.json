@@ -1,0 +1,27 @@
+{
+  "name": "js-play",
+  "version": "1.0.0",
+  "description": "mordern javascript playground",
+  "bin": {
+    "js-play": "bin/index.js"
+  },
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "moretai <moretaiupupup@gmail.com> (https://github.com/moretai)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Moretai/js-play"
+  },
+  "homepage": "https://github.com/Moretai/js-play",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "copy": "^0.3.2",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^9.1.0",
+    "yargs": "^16.2.0"
+  }
+}
