@@ -14,6 +14,8 @@ yargs(hideBin(process.argv))
   )
   .strict()
   .recommendCommands()
+  .alias("v", "version")
+  .alias("h", "help")
   .option("use", {
     alias: "u",
     type: "string",

@@ -1,7 +1,7 @@
 {
   "name": "js-play",
-  "version": "1.1.0",
-  "description": "mordern javascript playground",
+  "version": "1.2.0",
+  "description": "mordern javascript playground generator",
   "bin": {
     "js-play": "bin/index.js"
   },

@@ -8,6 +8,9 @@ module.exports = {
     path: __dirname + "/dist",
     filename: "index_bundle.js",
   },
+  resolve: {
+    extensions: [".js", ".jsx", ".json"],
+  },
   devServer: {
     contentBase: "./public",
     compress: true,
