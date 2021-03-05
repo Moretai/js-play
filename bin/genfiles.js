@@ -9,8 +9,8 @@ const copyPromisify = (src, dest) =>
     });
   });
 
-async function genfiles(workspacePath) {
-  const entry = path.join(__dirname, "templates");
+async function genfiles(workspacePath, template) {
+  const entry = path.join(__dirname, `templates/${template}`);
   await copyPromisify(`${entry}/**/*`, workspacePath);
 }
 

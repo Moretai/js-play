@@ -19,5 +19,10 @@ yargs(hideBin(process.argv))
   .option("use", {
     alias: "u",
     type: "string",
-    description: "use yarn,npm or cnpm",
+    description: "use yarn, npm or cnpm. default npm",
+  })
+  .option("template", {
+    alias: "t",
+    type: "string",
+    description: "use es6+, redux, default es6+",
   }).argv;
