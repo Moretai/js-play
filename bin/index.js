@@ -24,5 +24,5 @@ yargs(hideBin(process.argv))
   .option("template", {
     alias: "t",
     type: "string",
-    description: "use es6+, redux, default es6+",
+    description: "use es6+, redux, saga. default es6+",
   }).argv;
